@@ -25,7 +25,7 @@ public class MySpringBootRouter extends RouteBuilder {
     @Override
     public void configure() throws Exception {
     	
-    	String erpUri = "https://5298967-sb1.restlets.api.netsuite.com/app/site/hosting/restlet.nl?script=625&deploy=1";
+    	String erpUri = "https://5298967-sb1.restlets.api.netsuite.com/app/site/hosting/restlet.nl?script=581&deploy=1";
     	
     	onException(HttpOperationFailedException.class)
     		.handled(true)
