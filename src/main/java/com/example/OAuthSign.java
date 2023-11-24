@@ -1,7 +1,6 @@
 package com.example;
 
 import java.io.IOException;
-import java.util.Set;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -22,10 +21,10 @@ public class OAuthSign {
 		String access_token = "1baa836e6e43d0c06aea6eb30a7233ae1974969a367092574b95f5b2a715bc98";
 		String access_secret= "e74aebe07b3827288b18776788d20b68ceae94777e4d26765884176fbabfa5b2";*/
 
-		String consumer_key = "d2721f08ee9f3f475189103390abd251006b176b51261b09593f644f910690e4";
-		String consumer_secret = "1b12abcd83c9b1f8b0be67f0d77c697ca36464aa91258e68de0ed90c07a3e7d9";
-		String access_token = "3fb8e65762451260159843758465f8bcdfd86c2403d7729414fde83837c7c811";
-		String access_secret= "bf80771b1309cfab7fdd4d4b6ef2723d702500e4f6398b457fec13c6157679ab";
+		String consumer_key = "7a37e528abb3c00bed36c730f3f85baacbf69dd2dc5f692d0b019d86214cdfa6";
+		String consumer_secret = "435ab7721e805e939268c1477338375d301d8c2d0b9af67b4490bce9cf781709";
+		String access_token = "e2592c848cb77a1631eb7abd41d4880041fbc393e9726325c6e1067a5dd99455";
+		String access_secret= "22f9201dfa806f10c92732f5ba7fe58b927902ad294e7d126a8f7724bdea7d13";
 
 	    OAuthConsumer consumer = new CommonsHttpOAuthConsumer(consumer_key, consumer_secret);
 	    consumer.setMessageSigner(new HmacSha256MessageSigner());
